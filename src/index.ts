@@ -6,6 +6,7 @@ import router from './routes/authRoutes.js';
 import postRouter from './routes/postRoutes.js';
 import commentRouter from './routes/commentRoutes.js';
 import likesRouter from './routes/likesRoutes.js';
+import logger from './utils/logger/logger.js';
 dotenv.config();
 
 const app: Application = express();
@@ -19,5 +20,5 @@ app.use(likesRouter);
 connectToDatabase();
 
 app.listen(Number(process.env.PORT), () => {
-  console.log(`Server is running on port ${process.env.PORT}`);
+  logger.info(`Server is running on port ${process.env.PORT}`);
 });
