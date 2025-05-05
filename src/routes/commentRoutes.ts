@@ -5,7 +5,7 @@ import {
   deleteComment,
   updateComment,
 } from '../controller/commentController.js';
-import { CommentRoutes } from './indexRoutes.js';
+import { CommentRoutes } from '../utils/ENUMS/routesEnum.js';
 
 const router = Routes();
 

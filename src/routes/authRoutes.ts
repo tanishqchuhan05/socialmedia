@@ -3,7 +3,7 @@ import {
   loginUser,
 } from '../controller/authController.js';
 import { Router } from 'express';
-import { AuthRoutes } from './indexRoutes.js';
+import { AuthRoutes } from '../utils/ENUMS/routesEnum.js';
 
 const router = Router();
 

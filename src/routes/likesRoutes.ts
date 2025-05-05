@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { addLike, getLikes } from '../controller/likesController.js';
-import { LikeRoutes } from './indexRoutes.js';
+import { LikeRoutes } from '../utils/ENUMS/routesEnum.js';
 
 const router = Router();
 

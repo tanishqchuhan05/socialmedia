@@ -6,7 +6,7 @@ import {
   getAllPosts,
   getSinglePost,
 } from '../controller/postController.js';
-import { PostRoutes } from './indexRoutes.js';
+import { PostRoutes } from '../utils/ENUMS/routesEnum.js';
 
 const router = Router();
 
