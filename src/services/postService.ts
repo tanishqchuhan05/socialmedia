@@ -1,13 +1,13 @@
 import Posts from '../models/postModels.js';
 import User from '../models/userModels.js';
 import APIResponse from '../utils/APIResponse.js';
-import { ICreatePost } from '../utils/interface/PostInterface/ICreatePost.js';
-import { IDeletePost } from '../utils/interface/PostInterface/IDeletePost.js';
-import { IFindPost } from '../utils/interface/PostInterface/IFindPost.js';
-import { IFindUser } from '../utils/interface/PostInterface/IFindUser.js';
-import { IGetAllPost } from '../utils/interface/PostInterface/IGetAllPost.js';
-import { IGetSinglePost } from '../utils/interface/PostInterface/IGetSinglePost.js';
-import { IUpdatePost } from '../utils/interface/CommentInterface/IUpdatePost.js';
+import { ICreatePost } from '../utils/interface/ICreatePost.js';
+import { IDeletePost } from '../utils/interface/IDeletePost.js';
+import { IFindPost } from '../utils/interface/IFindPost.js';
+import { IFindUser } from '../utils/interface/IFindUser.js';
+import { IGetAllPost } from '../utils/interface/IGetAllPost.js';
+import { IGetSinglePost } from '../utils/interface/IGetSinglePost.js';
+import { IUpdatePost } from '../utils/interface/IUpdatePost.js';
 import MESSAGES from '../utils/messagesUtils.js';
 import { Response } from 'express';
 

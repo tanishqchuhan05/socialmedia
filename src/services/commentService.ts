@@ -2,11 +2,11 @@ import Comments from '../models/commentModels.js';
 import APIResponse from '../utils/APIResponse.js';
 import MESSAGES from '../utils/messagesUtils.js';
 import { Response } from 'express';
-import { IComments } from '../utils/interface/CommentInterface/IComments.js';
-import { IGetComment } from '../utils/interface/CommentInterface/IGetComment.js';
-import { IDelComment } from '../utils/interface/CommentInterface/IDelComment.js';
-import { IUpdateComment } from '../utils/interface/CommentInterface/IUpdateComment.js';
-import { IFindComment } from '../utils/interface/CommentInterface/IFIndComment.js';
+import { IComments } from '../utils/interface/IComments.js';
+import { IGetComment } from '../utils/interface/IGetComment.js';
+import { IDelComment } from '../utils/interface/IDelComment.js';
+import { IUpdateComment } from '../utils/interface/IUpdateComment.js';
+import { IFindComment } from '../utils/interface/IFIndComment.js';
 
 const commentService = {
   addComment: async (data: IComments, res: Response) => {

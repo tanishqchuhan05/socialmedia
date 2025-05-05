@@ -1,4 +1,4 @@
-import { IComments } from './CommentInterface/IComments.js';
+import { IComments } from './IComments.js';
 
 export interface IUpdateComment {
   comment_id: string;

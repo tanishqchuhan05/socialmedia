@@ -4,8 +4,8 @@ import commentService from './commentService.js';
 import MESSAGES from '../utils/messagesUtils.js';
 import APIResponse from '../utils/APIResponse.js';
 import { Response } from 'express';
-import { ILikes } from '../utils/interface/LikeInterface/ILikes.js';
-import { IGetLikes } from '../utils/interface/LikeInterface/IGetLikes.js';
+import { ILikes } from '../utils/interface/ILikes.js';
+import { IGetLikes } from '../utils/interface/IGetLikes.js';
 
 const likeService = {
   // Add like to a post or comment

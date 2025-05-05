@@ -8,6 +8,7 @@ import {
 } from '../utils/validations/validation.js';
 import tokenHandler from '../utils/handlers/JWTHandler.js';
 
+//Register user
 const registerUser = async (req: Request, res: Response) => {
   try {
     await registerValidation(req.body);
@@ -19,6 +20,7 @@ const registerUser = async (req: Request, res: Response) => {
   }
 };
 
+//Login User
 const loginUser = async (req: Request, res: Response) => {
   try {
     await loginValidation(req.body);

@@ -1,7 +1,7 @@
 import User from '../models/userModels.js';
 import APIResponse from '../utils/APIResponse.js';
-import { ILogin } from '../utils/interface/AuthInterface/ILogin.js';
-import IUser from '../utils/interface/AuthInterface/IUser.js';
+import { ILogin } from '../utils/interface/ILogin.js';
+import IUser from '../utils/interface/IUser.js';
 import MESSAGES from '../utils/messagesUtils.js';
 import PasswordHandler from '../utils/handlers/passwordHandler.js';
 import { Response } from 'express';
